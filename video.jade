@@ -1,0 +1,6 @@
+span(decorator="block:question")
+    | {{ question }}
+.col-sm-12(decorator="block:content")
+    video.module__video(controls)
+        source(src="{{ url }}" type="video/mp4")
+        | Your device does not support the video

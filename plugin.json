@@ -1,0 +1,9 @@
+{
+  "name": "video",
+  "version": "0.0.1",
+  "main": "reader.js",
+  "public": {
+    "reader_template": "./video.jade",
+    "reader_style": "./video.styl"
+  }
+}
